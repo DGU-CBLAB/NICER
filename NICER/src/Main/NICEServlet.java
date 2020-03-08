@@ -16,7 +16,7 @@ import hihi.GoogleAuthentication;
  * Servlet implementation class NICEServlet
  */
 
-@WebServlet("/NICE")
+@WebServlet("/NICEServlet")
 @MultipartConfig(maxFileSize = -1, maxRequestSize = -1,location =Setup.FileSaveDirectory)
 public class NICEServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
